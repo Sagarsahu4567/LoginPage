@@ -1,0 +1,65 @@
+/* responsive.css */
+
+
+/* Styles for desktop */
+.content {
+    max-width: 800px;
+    margin: 0 auto; /* Center content on large screens */
+}
+.Whatsapp {
+    max-width: 800px;
+    margin: 0 auto; /* Center content on large screens */
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+    }
+    .Youtube{
+        padding: 20px;
+    }
+    .Whatsapp{
+        padding: 20px;
+    }
+    .Telegram{
+        padding: 20px;
+    }
+    .Instagram{
+        padding: 20px;
+    }
+    .Linkdin{
+        padding: 20px;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .content {
+        padding: 10px;
+    } 
+    .head {
+        font-size: 24px;
+    }
+    .name h1 {
+        font-size: 20px;
+    }
+    .social-buttons button {
+        margin-bottom: 10px;
+    }
+    .Youtube{
+        padding: 10px;
+    }
+    .Whatsapp{
+        padding: 10px;
+    }
+    .Telegram{
+        padding: 10px;
+    }
+    .Instagram{
+        padding: 10px;
+    }
+    .Linkdin{
+        padding: 10px;
+    }
+}
